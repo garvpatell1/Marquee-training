@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code</title>
+    <!-- Font Awesome for <i> icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .card{
+            width: 300px;
+            height: 350px;
+            background-color: #f0f0f0;
+            display: inline-block;
+            border-radius: 10px;
+            overflow: hidden;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .card-header{
+            height: 60px;
+            background-color: #2b0bfa;
+        }
+        .profile{
+            width: 100px;
+            height: 100px;
+            background-color: #2b0bfa;
+            border-radius: 50%;
+            margin: -50px auto 8px;
+            background-image: url("boy.png");
+            background-size: cover;
+            border: 5px solid #2b0bfa;
+        }
+        .card-title{
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+            color: #2b0bfa;
+        }
+        .card-subtitle{
+            font-size: 14px;
+            text-align: center;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        .card-body2{
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 6px 0;
+        }
+        .platform1, .platform2, .platform3, .platform4{
+            width: 40px;
+            height: 40px;
+            background-size: cover;
+            border-radius: 50%;
+        }
+        .platform1{ background-image: url("facebook.png"); }
+        .platform2{ background-image: url("twitter.png"); }
+        .platform3{ background-image: url("social.png"); }
+        .platform4{ background-image: url("youtube.png"); }
+        .card-body3{
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .sub{
+            min-width: 80px;
+            height: 30px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2b0bfa;
+            border-radius: 30px;
+            padding: 0 12px;
+        }
+        .card-footer{
+            height: 60px;
+            background-color: #e8e6f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+        }
+        .foot-item{
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #2b0bfa;
+            font-weight: 600;
+        }
+        .foot-icon{
+            font-size: 18px;
+            color: #2b0bfa;
+        }
+        .foot-count{
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header"></div>
+        <div class="profile"></div>
+        <div class="card-body">
+           <div class="card-title">CodingLab</div>
+           <div class="card-subtitle">YouTube & blogger</div>
+        </div>
+        <div class="card-body2">
+            <div class="platform1"></div>
+            <div class="platform2"></div>
+            <div class="platform3"></div>
+            <div class="platform4"></div>
+        </div>
+
+        <div class="card-body3">
+            <div class="sub">Subscribe</div>
+            <div class="sub">Message</div>
+        </div>
+        <div class="card-footer">
+            <div class="foot-item"><i class="fa fa-thumbs-up foot-icon" aria-hidden="true"></i><span class="foot-count">60.4k</span></div>
+            <div class="foot-item"><i class="fa fa-comment foot-icon" aria-hidden="true"></i><span class="foot-count">1.2k</span></div>
+            <div class="foot-item"><i class="fa fa-share-alt foot-icon" aria-hidden="true"></i><span class="foot-count">850</span></div>
+        </div>
+    </div>
+</body>
+</html>
